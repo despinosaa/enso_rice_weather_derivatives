@@ -1,0 +1,8 @@
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/**/.gitkeep
+!data/raw/DATA_SOURCES.md
+data/processed/*
+!data/processed/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
