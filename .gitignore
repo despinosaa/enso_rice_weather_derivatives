@@ -1,8 +1,55 @@
+# Data directories: keep repository sources, ignore raw/processed data
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/**/.gitkeep
 !data/raw/DATA_SOURCES.md
 data/processed/*
 !data/processed/.gitkeep
+
+# Python artifacts
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints
+
+# Outputs, caches and databases
+outputs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Packaging / build
+build/
+dist/
+*.egg
+
+# IDEs, editors, OS files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.bak
+*.swp

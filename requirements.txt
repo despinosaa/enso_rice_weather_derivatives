@@ -1,0 +1,16 @@
+
+# Pinned exact versions (generated 2026-05-24)
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+matplotlib==3.10.9
+seaborn==0.13.2
+statsmodels==0.14.6
+arch==8.0.0
+xarray==2026.4.0
+netCDF4==1.7.4
+jupyter==1.1.1
+notebook==7.5.6
+ipykernel==7.2.0
+tqdm==4.67.3
+
